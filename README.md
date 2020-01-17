@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# ThinkORM
 
-You can use the [editor on GitHub](https://github.com/thinkkoa/thinkorm_doc/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![npm version](https://badge.fury.io/js/thinkorm.svg)](https://badge.fury.io/js/thinkorm)
+[![Build Status](https://travis-ci.org/thinkkoa/thinkorm.svg?branch=master)](https://travis-ci.org/thinkkoa/thinkorm)
+[![Dependency Status](https://david-dm.org/thinkkoa/thinkorm.svg)](https://david-dm.org/thinkkoa/thinkorm)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* thinkorm@4.0 Use Typescript's decorator!!
 
-### Markdown
+A flexible, lightweight and powerful Object-Relational Mapper for Node.js.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ThinkORM是一个可扩展轻量级的功能丰富的ORM，运行在Node.js环境，已经支持Typescript。
 
-```markdown
-Syntax highlighted code block
+ThinkORM试图用一种抽象的DSL语言，尽量保持各种数据库书写语法一致，用户专注于数据操作逻辑而非具体的数据存储类型，达到快速开发和移植的目的。
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thinkkoa/thinkorm_doc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
