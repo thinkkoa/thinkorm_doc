@@ -79,7 +79,7 @@ result = await userModel.where({"name": {"<>": ""}}).select(); //query name is n
 
 # 对象关系映射
 
-## Entity
+## 实体
 
 通过@Entity注解，将模型类映射为实体表。支持自定义表名
 
@@ -93,7 +93,7 @@ Class User extend BaseModel {
 }
 ```
 
-## Column
+## 字段
 
 通过@Column注解，将模型类成员属性映射为实体表字段
 
@@ -124,6 +124,10 @@ Class User extend BaseModel {
 useModel.where({name: 'aa'}).find(); //查询user表name值为aa的数据
 
 ```
+
+## 关联关系
+
+参见 [关联关系](#关联查询)
 
 # 查询语法
 
