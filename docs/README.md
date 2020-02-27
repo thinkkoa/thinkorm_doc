@@ -527,3 +527,7 @@ Class User extend BaseModel {
 * 主表user同pet是一对多的关系
 
 * 主表user同group是多地多关联关系
+
+# 数据验证
+
+# 结构迁移
